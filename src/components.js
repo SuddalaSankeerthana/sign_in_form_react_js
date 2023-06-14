@@ -13,7 +13,7 @@ export const SignInForm=()=>{
 }
 export const InputComponent=({lable,placeholder})=>{
     return(<section>
-        <div className="inputele">
+        <div className="inputItem">
         <lable>{lable}</lable>
         <input type="text" placeholder={placeholder}></input></div></section>);
 }
