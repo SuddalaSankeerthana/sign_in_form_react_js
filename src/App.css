@@ -1,8 +1,31 @@
 .App {
   text-align: center;
+  display:flex;
+  padding: 100px;
+}
+.input{
+  display: flex;
+  flex-direction: row;
+}
+.inputele{
+  display: flex;
+  flex-direction: column;
+}
+lable{
+text-align: left;
+font-size: small;
+}
+h1,p{
+text-align: left;
+}
+p{
+  font-size: medium;
+}
+button{
+  border: 5px;
 }
 
-.App-logo {
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +58,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
