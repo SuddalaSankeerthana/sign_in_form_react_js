@@ -13,7 +13,7 @@ export default function SignInForm() {
           placeholder={"Enter last name"}
         ></InputComponent>
          <InputComponent
-          lable={"Email id"}
+          lable={"Email Id"}
           placeholder={"e.g john.smith@org.name"}
         ></InputComponent>
         <InputComponent
