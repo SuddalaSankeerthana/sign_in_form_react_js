@@ -11,6 +11,8 @@ It has the following details :
 
 - First name
 - Last name
+- Phone number
+- Gmail 
 
 ## Installations are requirements :
 - You need to install npm module.
