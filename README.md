@@ -1,5 +1,10 @@
-# Getting Started with Create React App
+# Sign_in_form_react_js
 
+## Table of content
+- Description
+- Requirements and installations
+- Usage
+## Description :  
 This project is for generating sign in form with react components.
 It has the following details :
 
@@ -7,8 +12,41 @@ It has the following details :
 - Last name
 - Email Id
 - Phone number
+## Description :
 
- and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This project repository implements Rate limiting using closures.
+
+- There is an endpoint `http://localhost:8080/api/health` which requires three parameters `domain` , `API_KEY` and `Rate limiting` number
+- Following are the requirements :
+
+1. if number of requests per 2 seconds is more than rate limiting number output user rate limiting crossed error message.
+    1. Once time crosses you can invoke request again.
+2. if API KEY or rate limiting is not provided then output is required fields are missing error message.
+3. Expose `get and post` methods of the object which has dummy implementation.
+
+## Installations are requirements :
+- You need to install npm module.
+```
+npm install
+```
+## Usage :
+- Clone the repository by running the following command, or download the repository.
+```
+git clone https://github.com/everest-engineering/JackPotUnitTesting.git
+```
+- install npm module.
+```
+npm install
+```
+- To run the index.js file run the following command.
+```
+npm run run
+```
+- To run test files 
+```
+npm run test
+```
+
 
 ## Available Scripts
 
